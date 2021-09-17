@@ -683,7 +683,9 @@ section{
 }
 .work_image{
     position: relative;
-    width: 400px;
+    width: 30%;
+    top: 0;
+    height: 40%;
     margin-top: 0%;
     margin-left: 2%;
     border-radius: 20px;
@@ -695,7 +697,7 @@ section{
     display: block;
     width: 100%;
     border-radius: 20px;
-    height: 400px;
+    height: 100%;
 }
 .work_image_overlay{
     position: absolute;
@@ -714,6 +716,10 @@ section{
     border-radius: 20px;
 }
 .work_image:nth-child(1) .work_image_overlay{
+    cursor: pointer;
+    /* cursor: url(CURSOR_URL), auto; */
+}
+.work_image:nth-child(2) .work_image_overlay{
     cursor: pointer;
     /* cursor: url(CURSOR_URL), auto; */
 }
