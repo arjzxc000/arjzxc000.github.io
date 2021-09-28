@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boxicons logo -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="author" content="Peeranat Prasertpunt">
+    <title>Peeranat Portfolio</title>
+    <link rel='stylesheet' type='text/css' href='style/style.css'>
+</head>
+
+<body>
+
+    <!-- To do list is to do responsive sidebar menu -->
+    <div class="sidebar active">
+        <div class="logo_content">
+            <div class="logo">
+                <!-- <div class="logo_name">Portpolio</div> -->
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="navlist">
+            <!-- <li>
+
+                <i class='bx bx-search-alt'></i>
+                <input placeholder="Search...">
+
+                <span class="tooltip">Search</span>
+            </li> -->
+            <li>
+                <a onclick="smoothScroll(document.getElementById('home'))">
+                    <i class='bx bxs-face'></i>
+                    <span class="link_name">HOME</span>
+                </a>
+                <span class="tooltip">HOME</span>
+            </li>
+            <li>
+                <a onclick="smoothScroll(document.getElementById('about'))">
+                    <i class='bx bx-message-square-dots'></i>
+                    <span class="link_name">ABOUT ME</span>
+                </a>
+                <span class="tooltip">ABOUT ME</span>
+            </li>
+            <!-- <li>
+                <a onclick="smoothScroll(document.getElementById('analytics'))">
+                    <i class='bx bx-line-chart'></i>
+                    <span class="link_name">ANALYTICS</span>
+                </a>
+                <span class="tooltip">ANALYTICS</span>
+            </li> -->
+            <li>
+                <a onclick="smoothScroll(document.getElementById('skills'))">
+                    <i class='bx bxs-folder-open'></i>
+                    <span class="link_name">SKILLS</span>
+                </a>
+                <span class="tooltip">SKILLS</span>
+            </li>
+            <li>
+                <a onclick="smoothScroll(document.getElementById('education'))">
+                    <i class='bx bxs-graduation'></i>
+                    <span class="link_name">EDUCATION</span>
+                </a>
+                <span class="tooltip">EDUCATION</span>
+            </li>
+            <li>
+                <a onclick="smoothScroll(document.getElementById('experience'))">
+                    <i class='bx bx-edit-alt'></i>
+                    <span class="link_name">EXPERIENCE</span>
+                </a>
+                <span class="tooltip" onclick="smoothScroll(document.getElementById('home'))">EXPERIENCE</span>
+            </li>
+            <li>
+                <a onclick="smoothScroll(document.getElementById('work'))">
+                    <i class='bx bx-task'></i>
+                    <span class="link_name">WORK</span>
+                </a>
+                <span class="tooltip">WORK</span>
+            </li>
+            <li>
+                <a onclick="smoothScroll(document.getElementById('contact'))">
+                    <i class='bx bxs-contact'></i>
+                    <span class="link_name">CONTACT</span>
+                </a>
+                <span class="tooltip">CONTACT</span>
+            </li>
+        </ul>
+        <!-- <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <img src="image/Peeranat Prasertpunt_photo.jpg" alt="">
+                    <div class="name_job">
+                        <div class="name">Peeranat Prasertpunt</div>
+                        <div class="job">Data Scientist</div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <div class="content">
+        <div class="Home">
+            <section id="home">
+                <div class="home_img">
+                    <img src="image/wallpaper.jpg">
+                    <div class="home_text">
+                        <h1>Peeranat Prasertpunt</h1>
+                        <p>Industrial engineering student</p>
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+
+                <div class="about_me">
+                    <p>about me</p>
+                    <h3>WHO AM I?</h3>
+
+                </div>
+                <!-- about me -->
+                <div class="about_info">
+                    <div class="about_img">
+                        <img src="image/Peeranat Prasertpunt_photo.jpg" alt="">
+                    </div>
+                    <div class="about_text"> <strong>Hi, I am Peeranat Prasertpunt.</strong> I’m currently a 4th-year
+                        student at Chulalongkorn University, Industrial
+                        engineering. I am interested in technology, <strong>data science, data analyst</strong>, which
+                        focuses on
+                        obtaining actionable insights from data by visualization and analyst. I have experienced work in
+                        critically thinking to solve the problem with
+                        <strong>machine learning</strong> such as <strong>neural network</strong> for
+                        <strong>prediction</strong> I
+                        have experienced work in the data fields e.g., data visualization, data analyst, and prediction.
+                        <div class="resume_link">
+                            <button type="button" class="button"
+                                onclick="NewTab('https://arjzxc000.github.io/Web%20Portfolio/Resume (16-09-2021).pdf')">Get
+                                my
+                                Resume</button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- <section id="analytics">
+                <h1>analytics</h1>
+            </section> -->
+            <section id="skills">
+                <div class="head_of_section">
+                    <p>SKILLS</p>
+                    <h3>PROFICIENCY</h3>
+                </div>
+                <div class="skills_content">
+                    <div class="skills_set">
+                        programming
+                    </div>
+                    <div class="skills_name">Python</div>
+                    <div class="skills_proficiency">: Intermediate</div>
+                    <div class="skills_name">pandas </div>
+                    <div class="skills_proficiency">: Intermediate</div>
+                    <div class="skills_name">NumPy</div>
+                    <div class="skills_proficiency">: Intermediate</div>
+                    <div class="skills_set">
+                        Analytics
+                    </div>
+                    <div class="skills_name">SQL </div>
+                    <div class="skills_proficiency">: Intermediate</div>
+                    <div class="skills_name">Excel</div>
+                    <div class="skills_proficiency">: Intermediate</div>
+                    <div class="skills_name">Power BI</div>
+                    <div class="skills_proficiency">: Elementary</div>
+                    <div class="skills_set">
+                        Machine learning
+                    </div>
+                    <div class="skills_name">TensorFlow </div>
+                    <div class="skills_proficiency">: Elementary</div>
+                    <div class="skills_name">Keras </div>
+                    <div class="skills_proficiency">: Intermediate</div>
+                    <div class="skills_name">Recurrent Neural Network</div>
+                    <div class="skills_proficiency">: Intermediate</div>
+                    <div class="skills_name">Graph Convolution NN</div>
+                    <div class="skills_proficiency">: Elementary</div>
+                    <div class="skills_set">
+                        Website Development
+                    </div>
+                    <div class="skills_name">HTML/CSS/JavaScript</div>
+                    <div class="skills_proficiency">: Elementary</div>
+                    <div class="skills_name">PHP</div>
+                    <div class="skills_proficiency">: Elementary</div>
+                </div>
+
+            </section>
+            <section id="education">
+                <div class="education_head">
+                    <p>EDUCATION</p>
+                    <h3>EDUCATION</h3>
+                </div>
+                <div class="educationBx">
+                    <div class="education_label">Bachelor of Engineering
+                    </div>
+                    <div class="education_content">
+                        Bachelor of Engineering, Industrial engineering at Chulalongkorn University<br>
+                        ● GPAX 2.93<br>
+                        ● Table tennis sports club's treasurer (2020-2021)<br>
+                        ● 3rd place table tennis sport from freshman competition (2019)
+                    </div>
+
+                </div>
+                <div class="education_head">
+
+                    <h3>CERTIFICATE</h3>
+                </div>
+                <div class="educationBx">
+                    <div class="education_label">Neural Networks and Convolutional Neural Networks Essential Training
+                    </div>
+                    <div class="education_content">
+                        Take a deep dive into neural networks and convolutional neural networks, two key concepts in the
+                        area of machine learning. Looks at convolutional neural networks, and hands-on with image
+                        recognition with MNIST dataset.<br>
+                        source: LinkedIn
+                    </div>
+                </div>
+                <div class="educationBx">
+                    <div class="education_label">Intro to Machine Learning
+                    </div>
+                    <div class="education_content">
+                        Take a introduction with machine learning. Looks at vary machine learning modules, and hands-on
+                        with basic data exploration, model validation, overfitting and underfitting, and Random
+                        Forest<br>
+                        source: Kaggle <a
+                            href="https://www.kaggle.com/learn/certification/peeranatprasertpunt/intro-to-machine-learning"
+                            target="_blank">
+                            Click to see credential</a>
+                    </div>
+                </div>
+
+            </section>
+            <section id="experience">
+                <div class="head_of_section">
+                    <p>experience</p>
+                    <h3>EXPERIENCE</h3>
+                </div>
+                <div class="experience_container">
+                    <div class="experience_card">
+                        <div class="experience_circle">
+                            <h2>Haup Car <br>(Jun 2021 - Present)</h2>
+                            <img src="image/haup_logo.jpg">
+                        </div>
+                        <div class="experience_content">
+                            <p><strong>HAUP is the first mobility sharing platform company in Thailand.</strong><br>
+                                As a data analyst intern, I interpret datasets and seek ways to accelerate the amount of
+                                demand by using machine learning, Graph convolution neural network, Long short-term
+                                memory, Python, and Power BI.</p>
+                        </div>
+                    </div>
+                    <div class="experience_card">
+                        <div class="experience_circle">
+                            <h2>Slum Club <br>(Dec 2018 - Feb 2021)</h2>
+                            <img src="image/slum_club_logo.jpg">
+                        </div>
+                        <div class="experience_content">
+                            <p><strong>Slum club is volunteer club which focuses on teaching about 100 students by using
+                                    growth
+                                    mindset</strong><br>
+                                I joined this club as an attendant to teach students, who are far away from city towns
+                                and lack teachers and educational tool shortages. I taught them a growth mindset by
+                                doing activities, encourage and inspire them with a can-do attitude.</p>
+                        </div>
+                    </div>
+                    <!-- <div class="experience_card">
+                        <div class="experience_circle">
+                            <h2>Haup Car</h2>
+                        </div>
+                        <div class="experience_content">
+                            <p>HAUP is the first mobility sharing platform company in
+                                Thailand<br>
+                                As a data analyst intern, I interpret dataset and seek for ways to accelerate the
+                                amount of demand by using machine learning ,e.g. Graph convolution
+                                neural network, Long short-term memory, Python, and Power BI.</p>
+                        </div> -->
+                </div>
+        </div>
+        </section>
+        <section id="work">
+            <div class="head_of_section">
+                <p>my work</p>
+                <h3>RECENT WORK</h3>
+            </div>
+            <div class="work_container">
+                <div class="work_image">
+                    <img class='work_image_img' src="image/SIR_model.jpg">
+                    <div class="work_image_overlay work_image_overlay--blur"
+                        onclick="NewTab('https://github.com/arjzxc000/SIR-model')">
+                        <div class="work_image_title">SIR model</div>
+                        <p class="work_image_description">
+                            I established a model for forecasting new confirmed covid-19 cases in Thailand by public
+                            data, of which has the highest accuracy is 93.13394 %.
+                            I chose this model instead of using the SEIR model or other models, which related to
+                            vaccinated cases because the population in Thailand was vaccinated only 15.5% (10/08/2021),
+                            thereby I considered the vaccinated cases as susceptible because the vaccine can't stop the
+                            pandemic. That's why we consider as the only a 3-state deterministic model (SIR model)
+                        </p>
+                    </div>
+                </div>
+                <div class="work_image">
+                    <img class='work_image_img' src="image/web port.jpg">
+                    <div class="work_image_overlay work_image_overlay--blur"
+                        onclick="NewTab('https://arjzxc000.github.io/Web%20Portfolio/')">
+                        <div class="work_image_title">Web Portfolio (This website)</div>
+                        <p class="work_image_description">
+                            I created a Website that is built by HTML/CSS/JavaScript from scrap to gather all my
+                            portfolio in one place and get hosted on GitHub page.
+                        </p>
+                    </div>
+                </div>
+                <div class="work_image">
+                    <img class='work_image_img' src="image/loan prediction.jpeg">
+                    <div class="work_image_overlay work_image_overlay--blur"
+                        onclick="NewTab('https://github.com/arjzxc000/Loan-approval-prediction')">
+                        <div class="work_image_title">Loan approval prediction</div>
+                        <p class="work_image_description">
+                            Loan approval prediction from a machine learning, which datasets are from Analytics Vidya.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="work_image">
+                    <img class='work_image_img' src="image/demand_prediction.png">
+                    <div class="work_image_overlay work_image_overlay--blur">
+                        <div class="work_image_title" style="font-size: large;">Demand prediction with new deploy
+                            station (on processing)</div>
+                        <p class="work_image_description">
+                            I established a model for demand forecasting the demand in new stations that are newly
+                            deployed. I deal with demand prediction and geospatial by using machine learning e.g., Long
+                            short-term memory and Graph convolution neural network.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <section id="contact">
+            <div class="head_of_section">
+                <p>get in touch</p>
+                <h3>CONTACT</h3>
+            </div>
+            <div class="text_contact">
+                <p>Feel free to reach out to me via any of the social media outlets below</p><br>
+                <div class="info_contact">
+                    <div class="info_contact_img"><i class='bx bx-mail-send'></i></div>
+                    <div class="info_contact_text">arjzxc.p@gmail.com</div>
+                </div>
+                <div class="info_contact">
+                    <div class="info_contact_img"><i class='bx bx-phone-call'></i></i></div>
+                    <div class="info_contact_text">(TH) (+66)80-453-0444</div>
+                </div>
+                <div class="info_contact">
+                    <div class="info_contact_img"><i class='bx bx-map-pin'></i></div>
+                    <div class="info_contact_text">Bangkok City, Thailand</div>
+                </div>
+
+                <div class="banner_of_contact">
+                    <i class='bx bxl-facebook-circle' onclick="NewTab('https://www.facebook.com/Peeranat.pra')"
+                        id="facebook_logo"></i>
+                </div>
+                <div class="banner_of_contact">
+                    <i class='bx bxl-github' id="github_logo" onclick="NewTab('https://github.com/arjzxc000')"></i>
+                </div>
+                <div class="banner_of_contact">
+                    <i class='bx bxl-linkedin-square' id="linkedin_logo"
+                        onclick="NewTab('https://www.linkedin.com/in/peeranat-prasertpunt/')"></i>
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+    <script src="style/script.js"></script>
+</body>
+
+</html>
