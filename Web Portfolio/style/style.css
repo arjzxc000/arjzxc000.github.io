@@ -272,7 +272,7 @@ section{
     left: 0px;
     right: 0px;
     width: 100%;
-    height: 100vh; /* หลังจากนี้จะไม่สามารใช้แค่ section ได้แล้ว เพราะว่าแต่ละ section จะต้องเปลี่ยนขนาดกันไป*/
+    height: auto; /* หลังจากนี้จะไม่สามารใช้แค่ section ได้แล้ว เพราะว่าแต่ละ section จะต้องเปลี่ยนขนาดกันไป*/
     /* align-items: center; */
     /* display: flex; */
     /* justify-content: center; */
@@ -349,6 +349,17 @@ section{
     font-size: 10px;
     text-transform: uppercase;
     color: #C1C1C1;
+}
+.about_info{
+    position: relative;
+    /* left: 1%; */
+    /* width: 1500px; */
+    /* padding: 20px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    overflow:auto;
 }
 .resume_link .button{
     background-color: #505050;
@@ -679,6 +690,7 @@ section{
     align-items: center;
     flex-wrap: wrap;
     /* overflow-x:auto; */
+    overflow: auto;
     height: 90vh;
 }
 .work_image{
@@ -720,6 +732,10 @@ section{
     /* cursor: url(CURSOR_URL), auto; */
 }
 .work_image:nth-child(2) .work_image_overlay{
+    cursor: pointer;
+    /* cursor: url(CURSOR_URL), auto; */
+}
+.work_image:nth-child(3) .work_image_overlay{
     cursor: pointer;
     /* cursor: url(CURSOR_URL), auto; */
 }
