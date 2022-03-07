@@ -427,7 +427,7 @@ section{
     margin-left: 2%;
     margin-top: 9%;
     margin-bottom: 1%;
-    height: 70px;
+    /* height: 70px; */
     font-weight: 0%;
     font-size: 30px;
     letter-spacing: 3px;
@@ -603,7 +603,7 @@ section{
     float: left;
     height: auto;
     position: relative;
-    left: 10%;
+    left: 5%;
     font-size: 25px;
 }
 .skills_proficiency{
@@ -635,7 +635,7 @@ section{
     margin: 20px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     transition: 0.5s;
 }
 .experience_container .experience_card .experience_circle{
@@ -673,9 +673,12 @@ section{
     transform: scale(1.1);
 }
 .experience_container .experience_card:nth-child(1) .experience_circle{
-    background: #0045A2;
+    background: #024fef;
 }
 .experience_container .experience_card:nth-child(2) .experience_circle{
+    background: #0045A2;
+}
+.experience_container .experience_card:nth-child(3) .experience_circle{
     background: #78B5BF;
 }
 /* work */
