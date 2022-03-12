@@ -260,7 +260,6 @@ body{
     color: #1d1b31;
     margin: 0px;
     overflow-x: hidden;
-    
 }
 .sidebar.active ~ .content{
     width: calc(100% - 240px);
@@ -765,5 +764,6 @@ section{
     font-size: medium;
     margin-top: 5%;
     text-align: center;
+    
     overflow-y: auto;
 }
