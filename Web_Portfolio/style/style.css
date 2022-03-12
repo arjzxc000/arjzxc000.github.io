@@ -742,6 +742,14 @@ section{
     cursor: pointer;
     /* cursor: url(CURSOR_URL), auto; */
 }
+.work_image:nth-child(5) .work_image_overlay{
+    cursor: pointer;
+    /* cursor: url(CURSOR_URL), auto; */
+}
+.work_image:nth-child(6) .work_image_overlay{
+    cursor: pointer;
+    /* cursor: url(CURSOR_URL), auto; */
+}
 .work_image_overlay--blur{
     backdrop-filter: blur(5px);
 }
